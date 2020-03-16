@@ -1926,7 +1926,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="USB-B*" library="Hexabitz" deviceset="1981568-1" device=""/>
+<part name="PUSB*" library="Hexabitz" deviceset="1981568-1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13350,7 +13350,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="NAME" x="84.50546875" y="173.99058125" size="2.082959375" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="79.8063" y="152.4478" size="2.08318125" layer="96" ratio="10" rot="SR0"/>
 </instance>
-<instance part="USB-B*" gate="G$1" x="31.75" y="114.3" smashed="yes">
+<instance part="PUSB*" gate="G$1" x="31.75" y="114.3" smashed="yes">
 <attribute name="NAME" x="25.14168125" y="125.2308" size="1.779440625" layer="95"/>
 <attribute name="VALUE" x="23.8708" y="103.8981" size="1.77973125" layer="96" rot="MR180"/>
 </instance>
@@ -13364,8 +13364,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="43.18" y1="95.25" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="106.68" x2="43.18" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="111.76" x2="39.37" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="USB-B*" gate="G$1" pin="5"/>
-<pinref part="USB-B*" gate="G$1" pin="SHIELD"/>
+<pinref part="PUSB*" gate="G$1" pin="5"/>
+<pinref part="PUSB*" gate="G$1" pin="SHIELD"/>
 <wire x1="39.37" y1="106.68" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
 <junction x="43.18" y="106.68"/>
 </segment>
@@ -13528,7 +13528,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="119.38" x2="92.71" y2="119.38" width="0.1524" layer="91"/>
 <junction x="92.71" y="119.38"/>
-<pinref part="USB-B*" gate="G$1" pin="2"/>
+<pinref part="PUSB*" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -13541,7 +13541,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="60.96" y1="116.84" x2="60.96" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="114.3" x2="80.01" y2="114.3" width="0.1524" layer="91"/>
 <junction x="80.01" y="114.3"/>
-<pinref part="USB-B*" gate="G$1" pin="3"/>
+<pinref part="PUSB*" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -13625,7 +13625,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="50.8" y="121.92"/>
 <pinref part="PWR" gate="G$1" pin="1"/>
 <wire x1="49.53" y1="130.81" x2="50.8" y2="130.81" width="0.1524" layer="91"/>
-<pinref part="USB-B*" gate="G$1" pin="1"/>
+<pinref part="PUSB*" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$10" class="0">

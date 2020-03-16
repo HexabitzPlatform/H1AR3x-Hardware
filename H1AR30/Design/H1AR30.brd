@@ -3,7 +3,7 @@
 <eagle version="9.3.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -1690,7 +1690,7 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="SOT-223 Texas Instruments" x="33.4137" y="40.0685" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="30.8704" y="35.36611875" size="1.016" layer="27" ratio="10" rot="SR0"/>
 </element>
-<element name="USB-B*" library="Hexabitz" package="TE_1981568-1" value="1981568-1" x="34.8615" y="22.7838" smashed="yes">
+<element name="PUSB*" library="Hexabitz" package="TE_1981568-1" value="1981568-1" x="34.8615" y="22.7838" smashed="yes">
 <attribute name="DESCRIPTION" value=" USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle " x="34.8615" y="22.7838" size="1.778" layer="27" display="off"/>
 <attribute name="MFN" value="TE Connectivity" x="34.8615" y="22.7838" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="19815681" x="34.8615" y="22.7838" size="1.778" layer="27" display="off"/>
@@ -1773,13 +1773,13 @@ design rules under a new name.</description>
 <wire x1="36.6141" y1="40.0685" x2="33.6644625" y2="40.0685" width="0.254" layer="1"/>
 <wire x1="33.6644625" y1="40.0685" x2="31.544" y2="42.1889625" width="0.254" layer="1"/>
 <wire x1="31.544" y1="42.9641" x2="31.544" y2="42.1889625" width="0.254" layer="1"/>
-<contactref element="USB-B*" pad="5"/>
-<contactref element="USB-B*" pad="11"/>
-<contactref element="USB-B*" pad="6"/>
-<contactref element="USB-B*" pad="10"/>
-<contactref element="USB-B*" pad="7"/>
-<contactref element="USB-B*" pad="9"/>
-<contactref element="USB-B*" pad="8"/>
+<contactref element="PUSB*" pad="5"/>
+<contactref element="PUSB*" pad="11"/>
+<contactref element="PUSB*" pad="6"/>
+<contactref element="PUSB*" pad="10"/>
+<contactref element="PUSB*" pad="7"/>
+<contactref element="PUSB*" pad="9"/>
+<contactref element="PUSB*" pad="8"/>
 <wire x1="36.1615" y1="25.4588" x2="37.8365" y2="25.4588" width="0.254" layer="1"/>
 <wire x1="37.8365" y1="25.4588" x2="38.0615" y2="25.2338" width="0.254" layer="1"/>
 <wire x1="31.6615" y1="25.2338" x2="31.4365" y2="25.0088" width="0.254" layer="1"/>
@@ -2204,7 +2204,7 @@ design rules under a new name.</description>
 <signal name="N$2">
 <contactref element="C14" pad="1"/>
 <contactref element="R4" pad="1"/>
-<contactref element="USB-B*" pad="2"/>
+<contactref element="PUSB*" pad="2"/>
 <wire x1="33.4645" y1="22.1352" x2="33.4527" y2="22.147" width="0.254" layer="16"/>
 <wire x1="33.4527" y1="22.147" x2="33.4527" y2="23.8887" width="0.254" layer="16"/>
 <wire x1="34.2115" y1="25.4588" x2="34.2115" y2="26.5216" width="0.254" layer="1"/>
@@ -2218,7 +2218,7 @@ design rules under a new name.</description>
 <contactref element="C13" pad="1"/>
 <contactref element="R5" pad="1"/>
 <wire x1="36.9706" y1="22.3647" x2="36.9824" y2="22.3765" width="0.254" layer="16"/>
-<contactref element="USB-B*" pad="3"/>
+<contactref element="PUSB*" pad="3"/>
 <wire x1="39.7256" y1="23.5994" x2="39.2585" y2="24.0665" width="0.254" layer="1"/>
 <via x="39.7256" y="23.5994" extent="1-16" drill="0.35"/>
 <wire x1="39.7256" y1="23.5994" x2="39.7256" y2="22.9226" width="0.254" layer="16"/>
@@ -2326,7 +2326,7 @@ design rules under a new name.</description>
 <wire x1="30.7476" y1="30.353" x2="28.321" y2="30.353" width="0.254" layer="16"/>
 <wire x1="28.321" y1="30.353" x2="27.1272" y2="31.5468" width="0.254" layer="16"/>
 <wire x1="27.1272" y1="31.5468" x2="27.1272" y2="32.0675" width="0.254" layer="16"/>
-<contactref element="USB-B*" pad="1"/>
+<contactref element="PUSB*" pad="1"/>
 <wire x1="33.5615" y1="25.4588" x2="33.5615" y2="27.8176" width="0.254" layer="1"/>
 <wire x1="32.8284" y1="28.5507" x2="32.0929" y2="28.5507" width="0.254" layer="1"/>
 <via x="32.0929" y="28.5507" extent="1-16" drill="0.35"/>
