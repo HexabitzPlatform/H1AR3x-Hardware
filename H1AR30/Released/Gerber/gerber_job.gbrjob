@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-03-16T15:11:23Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.3.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "H1AR30"
+        },
+        "Owner": "Anas kaadan <anas.kaadan@outlook.com>",
+        "Size": {
+            "X": 34.64,
+            "Y": 30
+        }
+    }
+}
