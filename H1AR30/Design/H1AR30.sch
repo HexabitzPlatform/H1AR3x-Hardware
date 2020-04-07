@@ -1891,8 +1891,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="RESISTANCE" value="39.0 Ω"/>
 <attribute name="TOLERANCE" value="±5%"/>
 </part>
-<part name="D2" library="Hexabitz" deviceset="VLMS1300-GS08" device="" value="RED"/>
-<part name="D3" library="Hexabitz" deviceset="VLMTG1300-GS08" device="" value="GREEN"/>
+<part name="D2" library="Hexabitz" deviceset="VLMS1300-GS08" device="" value="YELLOW">
+<attribute name="MPN" value="VLMY1300-GS08"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/vlmy1300-gs08-vishay-21709204?r=sp"/>
+</part>
+<part name="D3" library="Hexabitz" deviceset="VLMTG1300-GS08" device="" value="ORANGE">
+<attribute name="MPN" value="VLMO1300-GS08 "/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/vlmo1300-gs08-vishay-21709200?r=sp#"/>
+</part>
 <part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY26" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C11" library="Hexabitz" deviceset="C-0603" device="" value="100nF">
@@ -13311,12 +13317,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="VALUE" x="217.17" y="98.298" size="1.778" layer="96"/>
 </instance>
 <instance part="D2" gate="G$1" x="215.9" y="82.55" smashed="yes" rot="R270">
-<attribute name="NAME" x="212.344" y="87.122" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="210.185" y="87.122" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="214.122" y="86.106" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="214.122" y="83.185" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="D3" gate="G$1" x="228.6" y="82.55" smashed="yes" rot="R270">
-<attribute name="NAME" x="225.044" y="87.122" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="222.885" y="87.122" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="232.918" y="84.074" size="1.778" layer="95"/>
+<attribute name="VALUE" x="232.918" y="81.915" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY25" gate="G$1" x="222.25" y="69.85" smashed="yes" rot="R180">
 <attribute name="VALUE" x="224.155" y="66.675" size="1.778" layer="96" rot="R180"/>
